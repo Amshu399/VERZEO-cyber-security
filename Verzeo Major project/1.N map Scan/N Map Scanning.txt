@@ -1,0 +1,14 @@
+N Map Scanning in machine:
+
+Victim machine- windows 7 / Kali linux
+Attacker machine - windows 10
+
+1.Open N Map in windows 10 
+2.Then enter the ip adresses of the machine we need to scan(win 7 / Kali Linux)
+3. Then change the scan option to( Intense scan, all TCP ports)
+4. Click on Scan option for scanning.
+5. The results will be displayed in the dialog box below as shown in the pics    attached.
+
+    We can get the open port numbers, total ports available, number of closed ports , services running in the ip , then ip adress of the machine, etc in the results of the scan
+
+source:   (https://nmap.org/download)

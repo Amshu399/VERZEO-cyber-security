@@ -1,0 +1,35 @@
+Steganography:
+
+Steganography is the technique of hiding secret messages within an ordinary
+messages and extracting it at destination to maintain confidentiality of the data.
+
+    1.Utilizing a graphic image as a cover is a preferred method on conceal the info in
+         files
+
+    2.Hacker can use steganography to cover messages like list of the compromised
+         servers, ASCII text file for the hacking tool, plans for future attacks.
+
+it can be done by two types 
+
+1. Manual :
+
+steps:
+a) Take a picture and a text file in a folder
+b) Open cmd prompt 
+c) Then oprn the directory of the pic and txt
+d)  Type (  copy /b picname.jpg+text.txt name.jpg  )
+e) There will be a new pic of the name you typed in the same directory which is encrypted with the messege
+
+if we want to the data open the new pic in notepad and scroll down , at the bottem we will find the text 
+  
+----------------------------------------------------------------
+2. Automatic :
+
+Link:http://quickcrypto.com/free-steganography-software.html
+
+Steps: 
+a)  Open and run the software
+b) Open the pic and text or type the text in the space given and click on save pic
+c)  A new pic will be createed in the name given ehile saving
+
+If you want to decrypt it open the same pic in the same software it take out the data.

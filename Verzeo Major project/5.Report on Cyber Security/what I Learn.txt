@@ -1,0 +1,150 @@
+I ahave learnt a lot of stuff from this course which includes the follows:
+
+1.All basics of Ethical hacking
+2.PhishingTheory
+3.IOT_Cloud_New
+4.SQL injection
+5.Info about all Malware_Virus_Trojan
+6.Sniffing_new
+7.Scanning_proxies
+8.Website hacking
+9.Wifi hacking
+10.Vulnarability Assesment
+11.System Hacking
+12.Mobile hacking
+13.Footprinting
+14.Firewall_IDS_Honeypots
+15.Bypass Authentication
+16.Crypto & Stegno
+17.Operating on many types of OS
+18.Instaling OS's
+19.Password Cracking
+20.Importantly i learnt how to be protected form all these attacks myself and my      devices.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL Injection:
+
+Steps for SQL injection:          website-(http://testphp.vulnweb.com/)
+
+1. you need to whether the given website is connected to DATBASE or not (numerical numbers like id= ? in url's)
+2. we will check the existance of vulnerability  (insert a ' after numerical number)
+	No error / page is same --- secured
+	error / page is changed / some changes done in webpage --- vulnerability
+3. we are going to check how many public columns are available (order by 1,2,3 etc)
+	no error --- column in present
+	error --- column is not present
+	11 columns are in public
+4. we need to find how many columns are having loop holes / vulnerbilites using
+	union select 1,2,3,4,5,6,7,8,9,10,11
+5. we need to find database name (remove 9 in url and enter database()  --- DB name : acuart
+6. we need to find the table names from database (group_concat(table_name) from informartion_schema.tables where table_schmea=database()
+
+	artists,carts,categ,featured,guestbook,pictures,products,users
+	Target : Users
+
+7. we need to find columns from users tables (replace table with column)
+	username,password,email,name.
+	Target: username,password,address,email
+
+8. we need information from databse about selected columns (replace column name with uname,pass,address,email)
+
+--------------------------------------------------------------------
+Mistakes done by developer or company:
+
+1.Database Admin ---> did not make data base not secured , the data base is accepting commands from end user from url
+2.web developer   ---> it dose not showpage has to redirect to 404 error page when url changed
+3.system admin / network admin ---> firewall not configured properly because it was bypassed by hex decimals in url's
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Phishing attack:
+
+These attacks can be done by anonimous links sent by someone,so never do the below things-
+1.Never click on Hyperlinks in Email
+2.Never enter sensitive data in a (Pop Up Window)
+3.Verify HTTPS on address bar
+4.Education on Phishing attacks
+5.Keep Antivirus Protection Current
+6.Utilize Anti Spam Software
+7.Utilize Anti Spy Software
+8.Install and maintain a reliable Firewall
+9.Protect against DNS pharming attacks
+10.Utilize Backup System copies
+
+target : anyone who is using socal news sites
+
+Steps to do pishing attack
+required
+
+1.html file ---> original facebook page 
+2.php file ---> malicious code will be there (imp)
+3. txt file will be used to save uid & pwd
+
+*save original html file
+
+*download php script (https://www.geekstorgeeks.org/how-to-create-a-facebook-phishing-page!) 
+*Save php file (facebook.php) & txt file with name (log.txt)
+*edit html file -- find keyword "action="
+*replace origini link with php script file name
+* create a free website and upload these files on website
+*we need to give full permissions for 3 files
+* hacker will send phishing link to victim
+
+free website hosting link
+https://www.freewebhostingarea.com
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bypass Authentication:
+
+Our target: Websites Admin Panel or Admin login page
+
+Websites:   http://demo.testfire.net/login.jsp
+
+
+1. we will be having admin login pages.
+
+2.Search for Admin pages in google ---> (http://demo.testfire.net/login.jsp) admin pages
+
+3.Attackers using google dorks  and by advnaced searching in google ,attacker first uses default uid and pass like
+
+uid:admin   ,  pass:admin
+uid:admin   ,  pass:password
+uid:Admin   ,  pass:Admin@123   ,ETC
+
+If he failed then he uses
+
+uid: 1'or'1'='1 
+pass:1'or'1'='1
+
+admin'or'1'='1 (true)
+login'or'1'='1  (true)
+
+Logic behind Database is
+
+uid	pass	Result
+T	F	F
+F	T	F
+T	T	T
+
+
+Reporting to the client:
+
+1.Take Screenshots (Before attack & After Attack)
+2.Give the Payload we have used to crack their authentication---> 1'or'1'='1
+
+Mistakes by the company's developers:
+
+1. The Web developer allowed alpha numeric only keys in username 
+2. Database Admin did not encrypted  data in database 
+
+
+cheatsheet for uid and pass- link:
+https://pentestlab.blog/2012/12/24/sql-injection-authentication-bypass-cheat-sheet/
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+These are some of the skills i learned from the course which i have explained with steps to perform in the machine.
+
+
+
+

@@ -1,0 +1,37 @@
+REPORT:
+
+phishing attack:
+
+These attacks can be done by anonimous links sent by someone,so never do the below things-
+1.Never click on Hyperlinks in Email
+2.Never enter sensitive data in a (Pop Up Window)
+3.Verify HTTPS on address bar
+4.Education on Phishing attacks
+5.Keep Antivirus Protection Current
+6.Utilize Anti Spam Software
+7.Utilize Anti Spy Software
+8.Install and maintain a reliable Firewall
+9.Protect against DNS pharming attacks
+10.Utilize Backup System copies
+
+target : anyone who is using socal news sites
+
+Steps to do pishing attack
+required
+
+1.html file ---> original facebook page 
+2.php file ---> malicious code will be there (imp)
+3. txt file will be used to save uid & pwd
+
+*save original html file
+
+*download php script (https://www.geekstorgeeks.org/how-to-create-a-facebook-phishing-page!) 
+*Save php file (facebook.php) & txt file with name (log.txt)
+*edit html file -- find keyword "action="
+*replace origini link with php script file name
+* create a free website and upload these files on website
+*we need to give full permissions for 3 files
+* hacker will send phishing link to victim
+
+free website hosting link
+https://www.freewebhostingarea.com

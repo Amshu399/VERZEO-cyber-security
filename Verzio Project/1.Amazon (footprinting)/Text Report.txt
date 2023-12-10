@@ -1,0 +1,266 @@
+Report on amazon footprinting:
+
+Footprinting Target: (Amazon.in)
+
+IP Adresses:
+
+Server:  UnKnown
+Address:  192.168.91.93
+
+Non-authoritative answer:
+Name:    e15316.a.akamaiedge.net
+Address:  104.115.93.185
+Aliases:  anazon.in
+          www.amazon.com
+          tp.47cf2c8c9-frontier.amazon.com
+          www.amazon.com.edgekey.net
+------------------------------------------------------------
+
+
+Tracing route to e15316.a.akamaiedge.net [104.115.93.185]
+over a maximum of 30 hops:
+
+  1     9 ms     1 ms     1 ms  192.168.91.93
+  2    71 ms    37 ms    38 ms  10.206.141.10
+  3     *        *        *     Request timed out.
+  4   122 ms     *      174 ms  10.206.248.129
+  5    59 ms    33 ms    40 ms  dsl-tn-dynamic-081.219.22.125.airtelbroadband.in [125.22.219.81]
+  6    62 ms    39 ms    53 ms  182.79.153.1
+  7    80 ms    54 ms    54 ms  a104-115-93-185.deploy.static.akamaitechnologies.com [104.115.93.185]
+
+Trace complete.
+
+-----------------------------------------------------------------------------------------------
+ 
+IP address
+125.22.219.81
+Hostname
+dsl-tn-dynamic-081.219.22.125.airtelbroadband.in
+Type
+Public
+CIDR
+125.22.219.81/24
+
+
+City
+Anehosur (30% confidence)
+Subdivision
+Karnataka (KA) (60% confidence)
+Country
+India (IN) (99% confidence)
+Postalcode
+584122 (30% confidence)
+Continent
+Asia (AS)
+------------------------
+
+IP address
+104.115.93.185
+Hostname
+a104-115-93-185.deploy.static.akamaitechnologies.com
+Type
+Public
+CIDR
+104.115.93.185/24
+
+City
+Bengaluru (10% confidence)
+Subdivision
+Karnataka (KA) (50% confidence)
+Country
+India (IN) (99% confidence)
+Postalcode
+560001 (1% confidence)
+Continent
+Asia (AS)
+-------------
+
+IP address
+182.79.153.1
+Hostname
+182.79.153.1
+Type
+Public
+CIDR
+182.79.153.1/24
+
+City
+not provided
+Country
+India (IN) (99% confidence)
+Continent
+Asia (AS)
+=-------------------------
+Amazon.in
+It has: they use their own platform-https://builtwith.com/?https%3A%2F%2Fwww.amazon.com%2F
+        Sign in option 
+        Ecommerce-amazon.in
+        Twitter Account-https://twitter.com/amazonin?lang=en
+        Instagram-https://www.instagram.com/amazondotin/
+        Facebook-https://www.facebook.com/AmazonIN
+        jobs-https://www.amazon.jobs/en/disability/us.
+        streaming site- amazon prime-https://www.primevideo.com/?ref_=dvm_pds_amz_in_as_s_g_146
+        Amazon Music Stream 
+        Amazon Advertising
+        Amazon Drive
+        Cloud storage
+	Artrificial inteligenc-	Alexa
+        Scalable Cloud Computing Services		
+        Kindle Direct Publishing
+        softwares-  C, C++, C++14, C#, Go, Java7, Java8, JavaScript, Kotlin, Objective-C,
+         PyPy2, PyPy3, Python2, Python3, Ruby, Scala and Swift.
+
+ -----------------------------------------------
+
+
+Amazon Technologies, Inc.
+IANA ID: 292
+URL: http://www.markmonitor.com
+Whois Server: —
+Registrar Status	clientDeleteProhibited, clientTransferProhibited, clientUpdateProhibited
+Dates	6,370 days old
+Created on 2005-02-11
+Expires on 2024-02-11
+Updated on 2019-05-12	  
+Name Servers	NS1.P31.DYNECT.NET (has 216,476 domains)
+NS2.P31.DYNECT.NET (has 216,476 domains)
+PDNS1.ULTRADNS.NET (has 88,840 domains)
+PDNS2.ULTRADNS.NET (has 88,840 domains)
+PDNS3.ULTRADNS.ORG (has 296 domains)
+PDNS4.ULTRADNS.ORG (has 296 domains)
+PDNS5.ULTRADNS.INFO (has 35 domains)
+PDNS6.ULTRADNS.CO.UK (has 501 domains)
+  
+Tech Contact	REDACTED FOR PRIVACY
+REDACTED FOR PRIVACY,
+REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
+(p) (f)
+IP Address	108.138.99.20 is hosted on a dedicated server
+  
+IP Location	United States - Washington - Seattle - Amazon.com Inc.
+ASN	United States AS16509 AMAZON-02, US (registered May 04, 2000)
+Hosting History	1 change on 2 unique name servers over 8 years	  
+ Website
+Website Title	None given.	  
+Server Type	Server
+Response Code	200
+Terms	529 (Unique: 252, Linked: 275)
+Images	31 (Alt tags missing: 3)
+Links	98   (Internal: 91, Outbound: 0)
+------------------------------------------------------------------------------------------
+
+
+Site	https://www.amazon.com
+Netblock Owner	Akamai Technologies, Inc.
+Hosting company	Akamai Technologies
+Hosting country	 US
+IPv4 address	23.72.34.17 (VirusTotal)
+IPv4 autonomous systems	AS16625
+IPv6 address	Not Present
+IPv6 autonomous systems	Not Present
+
+Reverse DNS	a23-72-34-17.deploy.static.akamaitechnologies.com
+Domain	amazon.com
+Nameserver	dns-external-master.amazon.com
+Domain registrar	markmonitor.com
+Nameserver organisation	whois.markmonitor.com
+Organisation	Amazon Technologies, Inc., P.O. Box 8102, Reno, 89507, United States
+DNS admin	root@amazon.com
+Top Level Domain	Commercial entities (.com)
+DNS Security Extensions	unknown
+
+IPv4 address (23.72.34.17)
+United States	
+
+IANA-IPV4-MAPPED-ADDRESS	
+Internet Assigned Numbers Authority
+ ↳ 23.0.0.0-23.255.255.255	 
+United States	
+ET23	American Registry for Internet Numbers
+  ↳ 23.72.0.0-23.79.255.255	 
+United States	AKAMAI	Akamai Technologies, Inc.
+   ↳ 23.72.34.17	 
+United States	AKAMAI	Akamai Technologies, Inc.
+----------------------------------------------------------------------------------
+
+Netblock owner	                                                                                IP address  	 OS	  Web server	Last seen
+Akamai Technologies, Inc. 145 Broadway Cambridge MA US 02142	104.96.174.101	Linux	  Server                  19-Jul-2022
+Amazon.com, Inc. 1918 8th Ave SEATTLE WA US 98101-1244	               99.86.125.142           unknown	    Server                5-Jul-2022
+Akamai Technologies, Inc. 145 Broadway Cambridge MA US 02142	104.96.174.101	Linux	   Server                 27-Jun-2022
+Amazon.com, Inc. 1918 8th Ave SEATTLE WA US 98101-1244	               99.86.125.142           unknown      unknown             20-Jun-2022
+Amazon.com, Inc. 1918 8th Ave SEATTLE WA US 98101-1244	               99.86.125.142         unknown        unknown             5-Jun-2022
+Akamai		                                                                                88.221.17.57             Linux	    Server	           29-May-2022
+Akamai Technologies	                                                                  2.21.189.234	 Linux	     Server	             30-Apr-2022
+Amazon.com, Inc. 1918 8th Ave SEATTLE WA US 98101-1244	                13.224.234.121      unknown         Server                 22-Apr-2022
+
+----------------------------------------
+supporting technologies-
+Cloud & PaaS
+Server-Side
+Client-Side
+Client-Side Scripting Frameworks
+CSS
+HTML-5
+-------------------------------------------------------------------------
+Severs info(amazon.in)
+Ireland               36
+United States     30
+India                  3
+Indonesia           2
+China                 1
+----------------------
+ports open(amazon.in)
+443
+69
+1234
+2
+25
+1
+80
+1
+5000
+1
+-------------------------------
+Organisations(amazon.in)
+
+Amazon Technologies Inc.                          30
+Amazon.com, Inc.                                      22
+Amazon Data Services Ireland Limited         11
+Amazon Data Services India                        2
+Google LLC                                                2
+--------------------------------------------------------
+SSL Certificate
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            0f:45:91:07:59:a6:0f:05:a6:09:c2:3f:e0:5c:ec:de
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, O=Amazon, OU=Server CA 1B, CN=Amazon
+        Validity
+            Not Before: Oct 16 00:00:00 2021 GMT
+            Not After : Oct  6 23:59:59 2022 GMT
+        Subject: CN=parents.amazon.ca
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:dd:09:95:0d:63:2f:81:a9:bd:c0:81:e3:4b:c3:
+                    60:c3:12:a2:0d:33:f5:2e:fb:4a:fa:26:95:6d:56:
+                    d3:d4:5b:03:73:85:a1:3f:10:93:18:60:44:19:c7:
+                    1c:89:7b:ab:5c:82:89:7a:c9:af:2f:ad:e6:c6:8f:
+                    c1:0b:2f:27:06:9e:7a:1e:9d:1e:43:f3:7b:1f:f2:
+                    f1:d9:1d:75:fe:d0:10:ef:3b:fb:4f:9e:46:5f:f0:
+                    f1:3b:a1:53:87:b4:be:a2:3b:a7:f9:83:31:db:2b:
+                    65:84:5a:31:b8:e4:0f:c5:74:2c:e6:54:7f:e7:3b:
+                    7f:fc:46:9f:11:b9:35:b6:0d:43:a7:05:4c:af:5c:
+                    51:1b:0c:c7:7d:b6:56:be:c5:9c:48:c3:a9:17:46:
+                    41:8a:f4:f9:c3:9c:e0:1b:8e:50:a1:65:b0:c4:12:
+                    95:b7:b4:89:57:0b:a1:b8:82:b1:02:fe:c9:d8:c4:
+                    e8:62:f4:f6:6b:f2:a6:75:dc:b2:d1:d1:76:c6:e4:
+                    78:99:7f:23:aa:4d:09:0b:32:41:cd:b7:93:94:3f:
+                    f4:80:f9:9f:49:4d:ba:e6:b9:36:cf:2d:21:38:d8:
+                    09:16:df:64:e5:e8:cf:bd:24:94:c4:16:c9:3d:a3:
+                    b7:c6:ba:4b:14:03:98:ba:2f:5b:17:1f:1f:a1:f1:
+                    30:4b
+
